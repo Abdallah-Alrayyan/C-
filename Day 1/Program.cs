@@ -46,7 +46,7 @@ namespace C__
             Console.Write("Input your lastname:");
              string lastname = Console.ReadLine();
             Console.Write("Input your year of birth:");
-            int birth = Convert.ToInt32( Console.ReadLine());
+            int birth = int.Parse( Console.ReadLine());
             Console.Write(firstname + " " + lastname + " " + birth);
 
 
