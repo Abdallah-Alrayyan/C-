@@ -256,21 +256,21 @@ namespace Day_2
 
         static void Main(string[] args)
         {
-            //task1(12);
-            //task2(12);
-            //task3("abd");
+            task1(12);
+            task2(12);
+            task3("abd");
             task24("abdallah");
-            //task5(12, 10);
-            //task6(12.2);
-            //task7(1, 2);
-            //task8(10);
-            //task9A(1, 2);
-            //task9B("aaa");
-            //task10("abd");
-            //task11(10, 45);
-            //task12(12, 23);
-            //task13(11, 13, 12);
-           
+            task5(12, 10);
+            task6(12.2);
+            task7(1, 2);
+            task8(10);
+            task9A(1, 2);
+            task9B("aaa");
+            task10("abd");
+            task11(10, 45);
+            task12(12, 23);
+            task13(11, 13, 12);
+
         }
     }
 }
