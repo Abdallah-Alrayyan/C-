@@ -9,6 +9,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                
+                    <asp:TextBox runat="server" class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></asp:TextBox>
+                    <asp:button runat="server" class="btn btn-outline-success" type="submit" Text="Search"></asp:button>
+                
+            </div>
+        </nav>
         
             <div class="container mt-5">
                 <!-- Row to display cards side by side -->

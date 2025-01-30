@@ -33,8 +33,8 @@
                     </div>
                 </div>
                 <form class="container-fluid justify-content-start">
-                    <asp:button class="btn btn-outline-success me-2" type="button" onclick="Sign_Click">Sign Up</asp:button>
-                    <asp:button class="btn btn-outline-success me-2" type="button"  onclick="Log_Click">Log IN</asp:button>
+                    <asp:Button class="btn btn-outline-success me-2" runat="server" type="button" OnClick="Sign_Click" Text="Sign Up"></asp:Button>
+                    <asp:Button class="btn btn-outline-success me-2" runat="server" type="button" OnClick="Log_Click" Text="Log IN"></asp:Button>
                 </form>
             </nav>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
